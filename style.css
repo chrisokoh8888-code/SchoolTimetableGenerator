@@ -1,0 +1,89 @@
+body{
+  font-family: Arial;
+  margin:0;
+  background:#f9f9f9;
+  color:#333;
+}
+
+.hero{
+  text-align:center;
+  padding:60px 20px;
+  background:#0C447C;
+  color:white;
+}
+
+.section{
+  padding:40px 20px;
+  text-align:center;
+}
+
+.highlight{
+  background:#eef6ff;
+}
+
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cta{
+  background:#111;
+  color:white;
+}
+
+.final{
+  background:#0C447C;
+  color:white;
+}
+
+.cta-buttons{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin-top:20px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  padding:12px 20px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.call-btn{
+  background:#fff;
+  color:#0C447C;
+}
+
+.whatsapp-btn{
+  background:#25D366;
+  color:white;
+}
+
+.pricing{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.price-card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  width:200px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.featured{
+  border:2px solid #0C447C;
+}
